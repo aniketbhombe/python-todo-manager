@@ -1,28 +1,22 @@
-# Python Task Manager Desktop App
+# Python Task Manager (Tkinter GUI)
 
-This is a desktop To-Do application built using Python and Tkinter.
+A desktop task manager built using Python and Tkinter.
 
 ## Features
 - Add tasks
-- Task priority (High / Medium / Low)
-- Due date
-- Mark task complete
+- Set task priority
+- Due date support
+- Mark tasks as done
+- Delete tasks
 - Search tasks
 - Export tasks to CSV
-- Persistent storage using JSON
+- JSON storage
 
 ## Technologies
-- Python
-- Tkinter
-- JSON
-- CSV
+Python
+Tkinter
+JSON
 
 ## How to Run
 
-Install Python and run:
-
 python todo_app.py
-
-
-## Author
-Aniket 
