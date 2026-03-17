@@ -244,6 +244,11 @@ search_button.pack(pady=4)
 task_listbox = tk.Listbox(root, width=70, height=12)
 task_listbox.pack(pady=10)
 
+def on_closing():
+    save_tasks()
+    root.destroy()
+
+root.protocol("WM_DELETE_WINDOW", on_closing)
 
 update_list()
 
